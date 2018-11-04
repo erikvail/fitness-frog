@@ -60,6 +60,7 @@ namespace Treehouse.FitnessFrog.Controllers
             //DateTime.TryParse(date, out dateValue);
 
             //ViewBag.Date = date;
+            /*
             ViewBag.Date = ModelState["Date"].Value.AttemptedValue;
 
             ViewBag.ActivityId = ModelState["ActivityId"].Value.AttemptedValue;
@@ -67,7 +68,7 @@ namespace Treehouse.FitnessFrog.Controllers
             ViewBag.Intensity = ModelState["Intensity"].Value.AttemptedValue;
             ViewBag.Exclude = ModelState["Exclude"].Value.AttemptedValue;
             ViewBag.Notes = ModelState["Notes"].Value.AttemptedValue;
-
+            */
             return View();
         }
 
